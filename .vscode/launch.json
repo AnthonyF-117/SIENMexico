@@ -9,7 +9,7 @@
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
-            "url": "http://localhost/index.html",
+            "url": "http://localhost:8080/SIENMexico",
             "webRoot": "${workspaceFolder}"
         }
     ]
