@@ -10,7 +10,13 @@
             "request": "launch",
             "reAttach": true,
             "url": "http://localhost:8080/SIENMexico",
-            "webRoot": "${workspaceFolder}"
+            "webRoot": "${workspaceFolder}",
+            "pathMappings": [
+                {
+                    "url": "http://localhost:8080",
+                    "path": "c:/xampp/htdocs"
+                }
+            ]
         }
     ]
 }
